@@ -1,0 +1,5 @@
+packages = ['bs4', 'requests']
+other = "Either libxml or some other htmlparser accepted by BeautifulSoup. I use lxml by default"
+pythonver = ["py27", "py35"]
+pythonos = ["linux"]
+
