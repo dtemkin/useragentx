@@ -4,11 +4,11 @@ A UserAgent selector that retrieves list of potential user-agent strings from 'w
 
 
 
-Example
+<b>Example</b>
 
 >> import useragent
 
-To Select specific platforms:
+To select specific platforms:
 
 >> plat = useragent.platform()
 >> chrome = plat.browser('Chrome')
