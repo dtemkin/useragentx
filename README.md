@@ -28,4 +28,3 @@ To Select UserAgent from complete list of 2958 (includes bots, gaming platforms,
 
 >> useragent.platform().from_all_()
 
-
