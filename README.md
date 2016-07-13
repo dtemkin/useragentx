@@ -4,8 +4,11 @@ A UserAgent selector that retrieves list of potential user-agent strings from 'w
 Version 0.2 Changes:
 
   -- Added agrument to allow autoselection of useragent
+  
   -- Added Web Crawler Specification
+  
   -- Changed Code Functionality Reducing Redundancies
+  
   -- Configured code to ignore case sensitive and other minor variations in user responses
 
 
