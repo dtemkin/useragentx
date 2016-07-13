@@ -1,0 +1,6 @@
+For Version 0.3
+    Reduce lag produced by html requests 
+        -- incl default responses in script
+        -- save html page to file for persistent queries on first run (make optional)
+        -- reduce number of if|else conditional stmts
+    
