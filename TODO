@@ -4,3 +4,6 @@ For Version 0.3
         -- save html page to file for persistent queries on first run (make optional)
         -- reduce number of if|else conditional stmts
     
+For Version 1.0
+    Port to PyPi
+        -- Write setup.py and improve documentation
