@@ -1,4 +1,4 @@
-For Version 0.3
+For Version 0.2
     Reduce lag produced by html requests 
         -- incl default responses in script
         -- save html page to file for persistent queries on first run (make optional)
