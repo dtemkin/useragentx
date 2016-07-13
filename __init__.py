@@ -1,8 +1,8 @@
-__all__ = ["bs4", "requests", "UserAgent.py"]
+__all__ = ["bs4", "requests", "useragent.py"]
 __author__ = "Dan Temkin"
 __license__ = "MIT"
 __description__="A simple useragent switching program that retrieves comprehensive lists of useragent strings from 'www.useragentstring.com'"
-__version__="0.1"
+__version__="0.3"
 __pyenv__= "3.5.2"
 __osenv__ = "Linux"
 __authoremail__= "just.dantastic@gmail.com"
