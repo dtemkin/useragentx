@@ -1,16 +1,6 @@
 # useragent_hoodini
 A UserAgent selector that retrieves list of potential user-agent strings from 'www.useragentstring.com'
 
-Version 0.2 Changes:
-
-  -- Added agrument to allow autoselection of useragent
-  
-  -- Added Web Crawler Specification
-  
-  -- Changed Code Functionality Reducing Redundancies
-  
-  -- Configured code to ignore case sensitive and other minor variations in user responses
-
 
 <b>Example</b>
 
@@ -50,3 +40,12 @@ To Select UserAgent from complete list of 2958 (includes web browsers, mobile, b
 
 >> useragent.platform().ALL()
 
+<b>Sample Usage Script </b>
+
+... import requests (or urllib) 
+... from useragent-hoodini import useragent
+
+ua = platform('html5lib').browser('Chrome',2)
+urlargs = {'connection':'keep-alive','user-agent':ua}
+req = requests.get('http://foo.com/bar', params=urlargs)
+return req.text
