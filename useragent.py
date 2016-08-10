@@ -59,7 +59,7 @@ class platform:
 
     def __init__(self, parser='lxml'):
         self.htmlparser = parser
-        self.baseurl = 'http://www.useragentstring.com/'
+        self.baseurl = 'http://www.useragentstring.com/pages/useragentstring.php?'
         self.supported_browsers = ['Chrome','Firefox','Internet Explorer',
                                    'Opera','Safari','Netscape']
         self.supported_mobile = ['NokiaGo','BlackBerry','Opera','Android']
@@ -95,7 +95,7 @@ for every space in the name.')
             print('Name not recognized but trying url request anyway.')
             browser_ = name
 
-        url = ''.join([self.baseurl, 'pages/%s/' % browser_])
+        url = ''.join([self.baseurl, "name=%s" % browser_])
         try:
            self.useragent_dict = get(browser_, self.htmlparser, url, 0)
         except Exception as errmsg:
@@ -122,7 +122,7 @@ for every space in the name.')
             print('Name not internally listed will try anyway.')
             mobile_ = name
         
-        url = ''.join([self.baseurl, 'pages/%s/' % mobile_])
+        url = ''.join([self.baseurl, 'name=%s' % mobile_])
         try:
             self.useragent_dict = get(mobile_, self.htmlparser, url, 1)
         except Exception as errmsg:
@@ -168,7 +168,7 @@ for every space in the name.')
                 bot_ = name
 
         
-        url = ''.join([self.baseurl, 'pages/%s/' % bot_])
+        url = ''.join([self.baseurl, 'name=' % bot_])
         try:
             self.useragent_dict = get(bot_, self.htmlparser, url, 2)
         except Exception as errmsg:
@@ -187,7 +187,7 @@ for every space in the name.')
     def ALL(self, uaid=None):
         ## Warning: There are an enormous number (2958 at last count) of potential UserAgents
             ## Not all of which may fit in the active browser window!
-        url = ''.join([self.url, 'pages/All/'])
+        url = ''.join([self.url, 'name=All'])
         try:
             self.useragent_dict = get('All', url, 0)
         except Exception as errmsg:
@@ -201,5 +201,4 @@ for every space in the name.')
             else:
                 selection = select('All', self.useragent_dict)
                 return self.useragent_dict[int(selection)]
-
 
