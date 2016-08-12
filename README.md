@@ -1,5 +1,5 @@
 # useragent_hoodini
-A UserAgent selector that retrieves list of potential user-agent strings from 'www.useragentstring.com'
+A UserAgent spoofer that retrieves list of potential user-agent strings from 'www.useragentstring.com'
 
 
 <b>Example</b>
