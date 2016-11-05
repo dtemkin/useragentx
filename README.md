@@ -46,10 +46,8 @@ To Select UserAgent from complete list of 2958 (includes web browsers, mobile, b
     import requests (or urllib) 
 
     from useragent-hoodini import useragent
-
-    ua = platform('html5lib').browser('Chrome',2)
     
-    urlargs = {'connection':'keep-alive','user-agent':ua}
+    urlargs = {'connection':'keep-alive','user-agent': platform().browser('Chrome', 2)}
     
     req = requests.get('http://foo.com/bar', params=urlargs)
     
