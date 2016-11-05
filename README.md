@@ -4,7 +4,7 @@ A UserAgent spoofer that retrieves list of potential user-agent strings from 'ww
 <b>Example</b>
 
 >> import useragentx
-OR
+# OR
 >> from useragentx.spoofer import platform
 
 To select specific platforms:
