@@ -1,10 +1,11 @@
-# useragent_hoodini
+# useragentx
 A UserAgent spoofer that retrieves list of potential user-agent strings from 'www.useragentstring.com'
-
 
 <b>Example</b>
 
->> import useragent
+>> import useragentx
+## OR
+>> from useragentx.spoofer import platform
 
 To select specific platforms:
 
