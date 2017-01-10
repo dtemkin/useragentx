@@ -5,11 +5,11 @@ A UserAgent spoofer that retrieves list of potential user-agent strings from 'ww
 
 >> import useragentx
 # OR
->> from useragentx.spoofer import platform
+>> from useragentx import spoofer
 
 To select specific platforms:
 
->> plat = useragent.platform()
+>> plat = useragentx.spoofer.platform()
 
 >> chrome = plat.browser('Chrome')
 
@@ -29,25 +29,25 @@ For google crawler only, available crawlers are numbered as follows:
 
 To show accepted platforms
 
->> useragent.platform().show_supported('mobile') #For list of Mobile Agents
+>> useragentx.spoofer.platform().show_supported('mobile') #For list of Mobile Agents
 
->> useragent.platform().show_supported('browser') #For list of Web Browser Agents
+>> useragentx.spoofer.platform().show_supported('browser') #For list of Web Browser Agents
 
->> useragent.platform().show_supported('crawler') #For list of Web Crawler Agents
+>> useragentx.spoofer.platform().show_supported('crawler') #For list of Web Crawler Agents
 
 The script will accept other valid values these functions just include the ones I controlled for more to come later
 
 To Select UserAgent from complete list of 2958 (includes web browsers, mobile, bots, gaming platforms, and others)
 
->> useragent.platform().ALL()
+>> useragentx.spoofer.platform().ALL()
 
 <b>Sample Usage Script </b>
 
     import requests (or urllib) 
 
-    from useragent-hoodini import useragent
+    from useragentx import spoofer
     
-    urlargs = {'connection':'keep-alive','user-agent': platform().browser('Chrome', 2)}
+    urlargs = {'connection':'keep-alive','user-agent': spoofer.platform().browser('Chrome', 2)}
     
     req = requests.get('http://foo.com/bar', params=urlargs)
     
