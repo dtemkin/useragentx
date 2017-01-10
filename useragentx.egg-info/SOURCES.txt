@@ -1,0 +1,7 @@
+setup.py
+useragentx/__init__.py
+useragentx/spoofer.py
+useragentx.egg-info/PKG-INFO
+useragentx.egg-info/SOURCES.txt
+useragentx.egg-info/dependency_links.txt
+useragentx.egg-info/top_level.txt
