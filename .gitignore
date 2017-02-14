@@ -1,0 +1,5 @@
+dist/
+__pycache__/
+.idea/
+useragentx.egg-info/
+build/

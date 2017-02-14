@@ -7,17 +7,17 @@ def read(f):
 
 setup(
     name = "useragentx",
-    version = "0.1",
+    version = "0.2.1",
     author = "Dan Temkin (just-dantastic)",
     author_email = "temkin.d01@gmail.com",
     description = ("A useragent spoofer supporting bot, mobile, and browser platforms"),
     license = "MIT",
     keywords = "useragent requests header spoofer",
-    url = "https://www.github.com/just-dantastic/useragent-spoofer",
-    packages = ['useragentx'],
+    url = "https://www.github.com/just-dantastic/useragentx",
+    packages=["useragentx"],
     long_description=read("README.md"),
     classifiers = [
-        "Development Status :: 1 - Alpha",
+        "Development Status :: 2 - Beta",
         "Topic :: Utilities",
         "License :: MIT License",
     ],

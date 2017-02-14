@@ -1,5 +1,9 @@
-__all__ = ["bs4", "requests", "spoofer"]
-__author__ = "Dan Temkin (just-dantastic)"
+import sys
+
+sys.path.append("../useragentx")
+
+__all__ = ["bs4", "requests", "useragentx"]
+_author__ = "Dan Temkin (just-dantastic)"
 __license__ = "MIT"
 __description__="A simple useragent switching program that retrieves comprehensive lists of useragent strings from 'www.useragentstring.com'"
 __version__="0.3"
