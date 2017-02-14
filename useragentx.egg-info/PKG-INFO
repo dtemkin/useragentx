@@ -1,8 +1,8 @@
 Metadata-Version: 1.1
 Name: useragentx
-Version: 0.1
+Version: 0.2.1
 Summary: A useragent spoofer supporting bot, mobile, and browser platforms
-Home-page: https://www.github.com/just-dantastic/useragent-spoofer
+Home-page: https://www.github.com/just-dantastic/useragentx
 Author: Dan Temkin (just-dantastic)
 Author-email: temkin.d01@gmail.com
 License: MIT
@@ -63,6 +63,6 @@ Description: # useragentx
         
 Keywords: useragent requests header spoofer
 Platform: UNKNOWN
-Classifier: Development Status :: 1 - Alpha
+Classifier: Development Status :: 2 - Beta
 Classifier: Topic :: Utilities
 Classifier: License :: MIT License
